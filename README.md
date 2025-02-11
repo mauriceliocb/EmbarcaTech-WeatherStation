@@ -76,6 +76,15 @@ if (condicao_adversa) {
 - If conditions exceed safe thresholds, an alert is triggered (LED & Buzzer), and the relay is activated.
 - Data is displayed on the OLED screen.
 
+## Library References
+### SSD1306 OLED Display Library
+**DASCHR.** SSD1306 OLED Display Library for Raspberry Pi Pico. Available at:  
+[https://github.com/daschr/pico-ssd1306](https://github.com/daschr/pico-ssd1306)
+
+### DHT22 Sensor Library
+**VmileA.** pico_dht - DHT22 Library for Raspberry Pi Pico. Available at:  
+[https://github.com/vmilea/pico_dht](https://github.com/vmilea/pico_dht)
+
 ## License
 This project is licensed under the MIT License.
 
