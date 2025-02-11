@@ -1,5 +1,7 @@
 # EmbarcaTech Final Project
 
+<img src="https://github.com/mauriceliocb/EmbarcaTech-WeatherStation/blob/main/EmbarcaTech_logo.png" width=40% height=40%>
+
 ## Overview
 This project is the final assignment of the **EmbarcaTech** course, utilizing a **Raspberry Pi RP2040** on a **BitDogLab** board. It is a **smart weather station** capable of automatically triggering a relay based on environmental conditions, using temperature, humidity, and light sensors.
 
