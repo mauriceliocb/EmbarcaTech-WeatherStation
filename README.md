@@ -47,34 +47,12 @@ This project is the final assignment of the **EmbarcaTech** course, utilizing a 
 - **`ssd1306.h`** → Header file for OLED display
 - **`hardware/adc.h`** → ADC configuration for the LDR sensor
 
-## Functionality
-### Sensor Readings
-```c
-uint16_t read_lux();
-float adc_to_lux(uint16_t adc_value);
-int dht22_read(int pin, float *temperature, float *humidity);
-```
+## Simulation
 
-### Alerts and Display
-```c
-void buzzer_alerta(int ativar);
-void alerta(int ativar);
-void exibir_no_oled(float temperature, float humidity, float lux, int condicao_adversa);
-```
+<img src="https://github.com/mauriceliocb/EmbarcaTech-WeatherStation/blob/main/schematic_wokwi.png" width=40% height=40%>
 
-### Relay Control
-```c
-if (condicao_adversa) {
-    gpio_put(RELAY_PIN, 1); // Activate relay
-} else {
-    gpio_put(RELAY_PIN, 0); // Deactivate relay
-}
-```
-
-## Usage
-- The system continuously monitors temperature, humidity, and light levels.
-- If conditions exceed safe thresholds, an alert is triggered (LED & Buzzer), and the relay is activated.
-- Data is displayed on the OLED screen.
+You can run this project using the **Wokwi simulator** at the following link:
+[Wokwi Simulation](https://wokwi.com/projects/421373840735077377)
 
 ## Library References
 ### SSD1306 OLED Display Library
@@ -84,6 +62,10 @@ if (condicao_adversa) {
 ### DHT22 Sensor Library
 **VmileA.** pico_dht - DHT22 Library for Raspberry Pi Pico. Available at:  
 [https://github.com/vmilea/pico_dht](https://github.com/vmilea/pico_dht)
+
+## BitDogLab Board
+For more details about the **BitDogLab** board, visit its GitHub repository:
+[BitDogLab GitHub](https://github.com/BitDogLab/BitDogLab)
 
 ## License
 This project is licensed under the MIT License.
