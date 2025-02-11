@@ -42,7 +42,7 @@ This project is the final assignment of the **EmbarcaTech** course, utilizing a 
 3. Compile and flash the firmware to the BitDogLab board.
 
 ## Code Structure
-- **`main.c`** → Core logic for reading sensors and controlling outputs
+- **`projetofinal.c`** → Core logic for reading sensors and controlling outputs
 - **`dht22.h`** → Header file for DHT22 sensor
 - **`ssd1306.h`** → Header file for OLED display
 - **`hardware/adc.h`** → ADC configuration for the LDR sensor
